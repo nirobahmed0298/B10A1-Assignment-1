@@ -57,6 +57,7 @@ nav>ul li a h6 {
     line-height: 33px;
     letter-spacing: 0%;
     text-align: left;
+    width: 670px;
 }
 
 nav>ul li button {
@@ -102,7 +103,7 @@ nav>ul li button {
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
-    margin-bottom: 24px;
+    margin-bottom: 50px;
 }
 
 .banner-title img {
@@ -111,14 +112,14 @@ nav>ul li button {
     margin-bottom: 24px;
 }
 
-.banner-title button {
+.banner-title .btn {
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     color: rgb(255, 255, 255);
     background: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
-    margin-top: 24px;
+    
 }
 
 /* Banner End */
@@ -185,5 +186,185 @@ nav>ul li button {
 .web-img img {
     width: 100%;
 }
+
 /* Web Development Section End */
 /* My Inspiration Section */
+.container-3 {
+    width: 1140px;
+    height: 775px;
+    margin: auto;
+    text-align: center;
+}
+
+.inspiration-section iframe {
+    box-sizing: border-box;
+    border: 30px solid rgba(207, 212, 222, 0.2);
+    border-radius: 16px;
+
+}
+
+/* End */
+/* My Current Target Section */
+.container-4 {
+    width: 1140px;
+    height: 460px;
+    margin: auto;
+    text-align: center;
+}
+
+.target-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.target-cards .card {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    text-align: left;
+}
+
+.card img,
+h4,
+p,
+a {
+    margin: 18px;
+}
+
+.card a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card h4 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card a {
+    text-decoration: underline;
+    color: black;
+}
+
+#css {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+#js {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* My Current Target Section End */
+/* Next Target section Start */
+
+/* Next Target section End */
+.container-5 {
+    width: 1140px;
+    height: 800px;
+    margin: 90px auto;
+    text-align: center;
+}
+
+.next-skill {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 24px;
+}
+
+.next-skill-title {
+    width: 900px;
+}
+
+.next-skill img {
+    height: 95px;
+}
+
+.next-skill-title a {
+    color: black;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -12px;
+}
+
+.next-skill-title p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+/* Next Target End */
+.support {
+    width: 1140px;
+    height: 313px;
+    margin: -80px  auto -30px;
+    border-radius: 16px;
+    background-image: linear-gradient(rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(./assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-content h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-content p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.support-content input {
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.support-content .buton {
+    padding: 17px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+
+}
+
+/* Footer section */
+footer {
+    margin-top: 80px;
+    max-height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-content p {
+    width: 570px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-content a img {
+    width: 35px;
+    height: 35px;
+    padding: 0 -10px;
+}

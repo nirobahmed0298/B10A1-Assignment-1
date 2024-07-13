@@ -1,0 +1,95 @@
+@media screen and (max-width:576px) {
+    header {
+        display: none;
+    }
+
+    .banner {
+        margin-bottom: 50px;
+        height: auto;
+        width: 576px;
+    }
+
+    .banner-title h1 {
+        font-size: 30px;
+    }
+
+    .container-1,
+    .container-2, .container-3,.container-4,.container-5 {
+        width: 576px;
+        height: auto;
+        margin: 1px auto;
+        padding: 10px 10px;
+    }
+
+    .web-section,.target-cards{
+        flex-direction: column;
+    }
+    .wen-section,.web-img{
+        margin: 50px;
+    }
+    .inspiration-section iframe {
+        width: 576px;
+        height:400px;
+    
+    }
+    .target-cards .card{
+        margin: 20px auto;
+    }
+    .support {
+        width: 576px;height: auto;
+        margin: 30px 0;
+        padding: 50px 0;
+    }
+    .support input{
+        width: 200px;
+    }
+    footer,.footer-content{
+        width: 576px;height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/* Medium Device */
+@media screen and (min-width:576px) and (max-width:991px) {
+    nav{
+        display: none;
+    }
+    .banner{
+        width: 991px ;height: auto;
+    }
+    .container-1,
+    .container-2, .container-3,.container-4,.container-5 {
+        width: 991px;
+        height: auto;
+        margin: 1px auto;
+        padding: 10px 10px;
+    }
+
+    .web-section,.target-cards{
+        flex-direction: column;
+    }
+    .wen-section,.web-img{
+        margin: 50px;
+    }
+    .inspiration-section iframe {
+        width: 991px;
+        height:400px;
+    
+    }
+    .target-cards .card{
+        margin: 20px auto;
+    }
+    .support {
+        width: 991px;height: auto;
+        margin: 30px  0;
+        padding: 50px 0;
+    }
+    .support input{
+        width: 300px;
+    }
+    footer,.footer-content{
+        width: 991px;height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+}
